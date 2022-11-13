@@ -27,4 +27,4 @@ Finally, to check if the service is running use the following commands:
 
 sudo systemctl status paccache.timer
 
-Note that you do not need to se the time to monthly, this is up to personal preference and use.
+Note that you do not need to set the time to monthly, this depends on person to person use.

@@ -1,6 +1,6 @@
 # paccache.timer
 
-This is a script that I use for automatically deleting cached versions of unused and old versions of installed and uninstalled packages on a monthly basis using the systemd.timer service.
+This is a script that I use for automatically deleting cached versions of unused and old versions of installed and uninstalled packages based on when I do my system updates. using the systemd.timer service.
 
 Creating the script goes as follows:
 
@@ -12,7 +12,7 @@ sudo vim /etc/systemd/system/paccache.timer
 
 Step 2: 
 
-To run this script on a monthly basis, use the code in the file called paccache.timer.
+To run create thos scro[t, use the code in the file called paccache.timer.  Remember that the date in the code is based on your own personal preference. 
 
 Step 3: 
 
@@ -26,5 +26,3 @@ Step 4:
 Finally, to check if the service is running use the following commands:
 
 sudo systemctl status paccache.timer
-
-Note that you do not need to set the time to monthly, this depends on person to person use.

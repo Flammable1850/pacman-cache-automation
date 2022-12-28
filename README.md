@@ -12,7 +12,7 @@ sudo vim /etc/systemd/system/paccache.timer
 
 Step 2: 
 
-To run create thos scro[t, use the code in the file called paccache.timer.  Remember that the date in the code is based on your own personal preference. 
+To create the script, use the code from the file called paccache.timer.
 
 Step 3: 
 

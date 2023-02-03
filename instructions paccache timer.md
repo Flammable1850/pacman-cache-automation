@@ -1,6 +1,4 @@
-Script used for automating the process of  deleting cached versions of both unused and old versions as well as installed and uninstalled packages using the systemd.timer service.
-
-Creating the script goes as follows:
+Creating this script goes as follows:
 
 Step 1: 
 

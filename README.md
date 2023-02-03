@@ -1,6 +1,6 @@
 # paccache.timer
 
-This is a script that I use for automatically deleting cached versions of unused and old versions of installed and uninstalled packages based on when I do my system updates. using the systemd.timer service.
+This is a script that I use for automatically deleting cached versions of unused and old versions of installed and uninstalled packages using the systemd.timer service.
 
 Creating the script goes as follows:
 

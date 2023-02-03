@@ -8,7 +8,7 @@ sudo vim /etc/systemd/system/paccache.timer
 
 Step 2: 
 
-To create the script, use the code from the file called paccache.timer.
+To create the script, use the code from the file called paccache.timer. I have it set to weekly, but if you want to set it to daily for whatever reason, just change it to daily.
 
 Step 3: 
 
@@ -23,3 +23,6 @@ Finally, to check if the service is running use the following commands:
 
 sudo systemctl status paccache.timer
 
+P.S. Feedback would be much appriciated.  
+
+If there are any questions, feel free to ask them as well, I will try to get to them when I can. 

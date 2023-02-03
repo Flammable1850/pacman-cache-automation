@@ -1,6 +1,7 @@
-# paccache.timer
 
-This is a script that I use for automatically deleting cached versions of unused and old versions of installed and uninstalled packages using the systemd.timer service.
+# For the paccache timer: 
+
+Script used for automating the process of  deleting cached versions of both unused and old versions as well as installed and uninstalled packages using the systemd.timer service.
 
 Creating the script goes as follows:
 

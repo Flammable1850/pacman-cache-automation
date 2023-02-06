@@ -1,3 +1,5 @@
+!#/bin/bash 
+
 # What the script is used for
 [Unit]
 Description=Clean-up old pacman pkg

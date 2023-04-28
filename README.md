@@ -1,7 +1,7 @@
 # pacman-cache-automation
 # Repo containing scripts for the automatic removal of pacman cached packages, based on a timely schedule.
 
-# The storage space on your hard drive can fill up rather quickly on an Arch system. We can free storage space on our hard drives in several ways, one of them being to clean the pacman package manager of cached packages through a simple script, which I will show you how to create:
+# The storage space on your hard drive can fill up rather quickly on an Arch system.  There are several ways to free up space, I will show you how to automate one of them to remove cached paccman packages by removing unused packages automatically, one a timed basis.
 
 # Step 1:
 
@@ -11,7 +11,7 @@
 
 # Step 2:
 
-# To create the script, use the code from the file called paccache.timer. I have it set to weekly, but if you want to set it to daily for whatever reason, just change it to daily.
+# To create the script, use the code snippet from the file called paccache.timer. 
 
 # Step 3:
 

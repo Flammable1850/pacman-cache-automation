@@ -1,28 +1,29 @@
 # pacman-cache-automation
 # Repo containing a script for the automatic removal of pacman cached packages, based on a timely schedule.
 
-# The storage space on your hard drive can fill up rather quickly on an Arch system.  There are several ways to free up space, I will show you how to automate one of them to remove cached paccman packages by removing unused packages automatically, one a timed basis.
+# pacman's cache can fill up space rather quickly, and I have quite often found myself without storage space, one of the ways to free up space is removing the cached packages that we no longer use. 
+# The following is a guide of sorts, to help you with this process: 
 
 # Step 1:
 
-Be sure to download the needed package, named "pacman-contrib" 
-We can do this with the following command sudo pacman -S pacman-contrib 
+# Be sure to download the needed package, named "pacman-contrib" 
+# We can do this with the following command sudo pacman -S pacman-contrib 
 
+# step 2:
 # Create a paccache.timer file:
-
 # sudo vim /etc/systemd/system/paccache.timer
 
-# Step 2:
+# Step 3:
 
 # To create the script, use the code snippet from the file called paccache.timer. 
 
-# Step 3:
+# Step 4:
 
 # Aftewards, start the systemd service like so:
 
 # sudo systemctl enable paccache.timer sudo systemctl start paccache.timer
 
-# Step 4:
+# Step 5:
 
 # Finally, to check if the service is running use the following commands:
 

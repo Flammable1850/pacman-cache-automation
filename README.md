@@ -1,5 +1,5 @@
 # pacman-cache-automation
-# Repo containing scripts for the automatic removal of pacman cached packages, based on a timely schedule.
+# Repo containing a script for the automatic removal of pacman cached packages, based on a timely schedule.
 
 # The storage space on your hard drive can fill up rather quickly on an Arch system.  There are several ways to free up space, I will show you how to automate one of them to remove cached paccman packages by removing unused packages automatically, one a timed basis.
 

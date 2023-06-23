@@ -5,6 +5,9 @@
 
 # Step 1:
 
+Be sure to download the needed package, named "pacman-contrib" 
+We can do this with the following command sudo pacman -S pacman-contrib 
+
 # Create a paccache.timer file:
 
 # sudo vim /etc/systemd/system/paccache.timer

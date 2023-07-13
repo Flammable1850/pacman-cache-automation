@@ -1,14 +1,7 @@
-!#/bin/bash 
-
-# What the script is used for
 [Unit]
 Description=Clean-up old pacman pkg
-
-# When the script is run
 [Timer]
 OnCalendar=weekly
 Persistent=true
-
-# Who can use the script
 [Install]
 WantedBy=multi-user.target
